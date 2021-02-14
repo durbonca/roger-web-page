@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
+import Contact from './components/Contact'
 import Card from './components/Card'
 
 function App() {
@@ -25,14 +26,26 @@ function App() {
         </div>
       </header>
       <main>
-        Main content here
-
         <Card
-            img_src="@/assets/img.jpg" 
+            img="/assets/img.jpg" 
             title="Servicio"
             description="breve descripcion" 
             price="25$"
         />
+        <Card
+            img="/assets/img.jpg" 
+            title="Servicio"
+            description="breve descripcion" 
+            price="25$"
+        />
+        <Card
+            img="/assets/img.jpg" 
+            title="Servicio"
+            description="breve descripcion" 
+            price="25$"
+        />
+
+        <Contact />
       </main>
       </div>
     </div>
